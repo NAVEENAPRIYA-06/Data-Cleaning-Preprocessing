@@ -2,7 +2,7 @@ This project demonstrates the key steps of data preprocessing on the Titanic dat
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Steps Performed
+#Steps Performed
 
 Handling Missing Values: Missing data in the Age and Embarked columns were filled in, and the Cabin column was removed.
 
@@ -14,7 +14,7 @@ Outlier Visualization: A boxplot was used to visualize outliers in the Fare colu
 
 -----------------------------------------------------------------------------------------------------------------------
 
-How to Run:
+#How to Run:
 
 Place the titanic.csv file in the same folder as the script.
 
@@ -23,3 +23,21 @@ Install the required libraries:
 
 Run the Python script from your terminal:
        python data_preprocessing.py
+
+------------------------------------------------------------------------------------------------------------------------
+
+#Screenshots:
+
+Before and After Preprocessing:
+
+Here you can see the initial data with missing values and the clean data after preprocessing.
+
+![Initial Data](screenshots/initial_info.png)
+
+![Clean Data](screenshots/final_info.png)
+
+#Fare Outliers Visualization:
+
+This boxplot shows the distribution of ticket prices and highlights the outliers.
+
+![Fare Boxplot](screenshots/boxplot.png)
