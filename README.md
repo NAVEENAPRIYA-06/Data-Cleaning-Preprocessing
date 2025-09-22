@@ -32,14 +32,14 @@ Before and After Preprocessing:
 
 Here you can see the initial data with missing values and the clean data after preprocessing.
 
-![Initial Data](screenshots/initial_info.png)
+![Initial Data](Screenshots/initial_info.png)
 
-![Clean Data](screenshots/final_info.png)
+![Clean Data](Screenshots/final_info.png)
 
 #Fare Outliers Visualization:
 
 This boxplot shows the distribution of ticket prices and highlights the outliers.
 
-![Fare Boxplot](screenshots/boxplot.png)
+![Fare Boxplot](Screenshots/boxplot.png)
 
 ------------------------------------------------------------------------------------------------------------------------
