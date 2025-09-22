@@ -11,3 +11,7 @@ df['Embarked'].fillna(df['Embarked'].mode()[0], inplace=True)
 df.drop('Cabin', axis=1, inplace=True)
 
 print("Missing values handled.")
+
+df = pd.get_dummies(df, columns=['Sex', 'Embarked'], drop_first=True)
+
+print("Categorical features encoded.")
