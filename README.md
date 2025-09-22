@@ -1,6 +1,6 @@
 This project demonstrates the key steps of data preprocessing on the Titanic dataset. The goal is to prepare the raw data for use in a machine learning model.
 
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 #Steps Performed
 
@@ -12,7 +12,7 @@ Scaling Features: The numerical columns (Age and Fare) were scaled to a standard
 
 Outlier Visualization: A boxplot was used to visualize outliers in the Fare column.
 
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 #How to Run:
 
@@ -41,3 +41,5 @@ Here you can see the initial data with missing values and the clean data after p
 This boxplot shows the distribution of ticket prices and highlights the outliers.
 
 ![Fare Boxplot](screenshots/boxplot.png)
+
+------------------------------------------------------------------------------------------------------------------------
