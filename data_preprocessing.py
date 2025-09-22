@@ -6,7 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv('titanic.csv')
+df = pd.read_csv('Titanic-Dataset.csv')
 
 # Handle missing values
 df['Age'].fillna(df['Age'].median(), inplace=True)
